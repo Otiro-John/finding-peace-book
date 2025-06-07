@@ -20,9 +20,18 @@ Whether you're going through personal struggles or simply want to experience dee
         </p>
       </div>
       <div className="about-images">
-        <img src={A} alt="...." />
-        <img src={B} alt="...." />
-        <img src={C} alt="...." />
+        <img src={A} alt="...."  data-aos="zoom-in"
+        data-aos-duration="1000"
+        data-aos-delay="100"
+        data-aos-easing="ease-in-out" />
+        <img src={B} alt="...." data-aos="zoom-in"
+        data-aos-duration="1000"
+        data-aos-delay="100"
+        data-aos-easing="ease-in-out" />
+        <img src={C} alt="...." data-aos="zoom-in"
+        data-aos-duration="1000"
+        data-aos-delay="100"
+        data-aos-easing="ease-in-out" />
       </div>
     </div>
   )
