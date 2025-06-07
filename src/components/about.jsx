@@ -5,7 +5,7 @@ import B from '../assets/img2.png'
 import C from '../assets/img3.png'
 const about = () => {
   return (
-    <div className='about-content'>
+    <div className='about-content' data-aos="fade-left">
       <div className="title">
         <h2>📖 About the Book</h2>
       </div>
